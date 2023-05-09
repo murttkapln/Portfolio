@@ -1,0 +1,228 @@
+*:not(i) {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #131E25;
+    color: white;
+    text-align: center;
+}
+#head {
+    width: 100%;
+    height: 200px;
+}
+#title1 {
+    font-family: "Bungee Shade", cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    opacity: .7;
+   
+    
+}
+
+#title1:hover{
+    color:#e15353;
+    opacity: 1;
+    height: max-content;
+}
+#title1:hover::first-letter {
+
+    font-style: italic;
+    font-size: 6rem;
+    opacity: 0.5;
+    max-width: max-content;
+}
+
+.navigation a {
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #D2B48C;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.navigation:hover {
+  
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.1));
+    
+}
+.navigation a:hover {
+    opacity: 0.8;
+    color: #ff0000;
+}
+span {
+    color: #ffebcd;
+    font-family: "Rampart One", cursive;
+    background: transparent;
+}
+
+h3 {;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 2px;
+    width: 100%;
+    margin: 15px 0;
+}
+h3:hover {
+    background-image: linear-gradient(to right, rgba(2, 27, 8, 0), rgba(1,0,0,0.1));
+}
+
+#describe p {
+    font-family: "Rampart One", cursive;
+    width: 100%;
+    font-size: 3rem;
+    color: #ffebcd;
+    padding: 3rem;
+    margin-top: 100px;
+    line-height: 3.5rem;
+    
+}
+span:hover{
+    transition: all 1s;
+    background-image: conic-gradient( rgba(12, 12, 12, 0), rgba(12, 12, 12, 0.5));
+    opacity: 1;
+    border-radius: 10px 0;
+    outline: 0.5rem inset black;
+    outline-offset: 10px;
+}
+#describe p:hover {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.1));
+}
+#describe {
+    width: 100%;
+    height: 400px;
+}
+
+#title2 {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    min-height: 900px;
+}
+#title2 img{
+    margin-top: 60px;
+    width:300px;
+    height: 400px;
+    cursor: pointer;
+    overflow: clip;
+    border-radius: 15px;   
+}
+
+#title2 img:hover {
+opacity: 0.6;
+}
+#conctact {
+    margin: 20px 0 20px;
+    height: 490px;
+    width: 820px;
+}
+
+#contact nav a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 20px 10px 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+color: #F0E4C4;
+}
+#contact nav a:hover {
+    color: #FF3D18;
+}
+
+#contact nav i {
+    padding-right: 4px;
+}
+
+#contact h4 {
+    margin: 30px auto 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+input, textarea, #send {
+    width: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #d2b48c;
+    padding: 13px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+#send {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 50%;
+    background-color: #d2b48c;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 900;
+
+}
+#send:hover {
+    color: #FF4500;
+    opacity: 1;
+}
+#send:hover::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    content: "\f1d8";
+    font-size: 2rem;
+    color: #FF4500;
+}
+
+.top-div {
+    height: 40px;
+    text-align: right;
+    margin-right: 20px;
+
+    
+}
+.top{
+    
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #d2b48c;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.top-div:hover::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f0a6";
+    font-size: 30px;
+    color: #FF4500;
+}
+
